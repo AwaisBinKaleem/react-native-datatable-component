@@ -49,4 +49,5 @@ const showCurrentProgress = (numOfPages = 2, fullLengthOfData) => { //default is
         start: startDisplayData
     }
 }
+
 export default showCurrentProgress;
