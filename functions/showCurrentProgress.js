@@ -6,7 +6,6 @@ const showCurrentProgress = (numOfPages = 2, fullLengthOfData) => { //default is
     if (fullLengthOfData == 0) {
         return null;
     }
-    
     let noOfDataPerDisplay = fullLengthOfData / numOfPages;
 
     if (Math.floor(noOfDataPerDisplay) < 1) {//it's mean data length is smaller than no Of Pages;
